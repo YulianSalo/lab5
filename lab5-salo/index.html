@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Lab 5</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #87CEEB;
+        }
+
+        .container {
+            text-align: center;
+            display: flex; /* Додано для використання flexbox */
+            flex-direction: column; /* Розташування елементів у стовпчик */
+            align-items: center; /* Центрування елементів горизонтально */
+        }
+
+        .task-button {
+            padding: 12px 24px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 10px; /* Додано відступ між кнопками */
+            width: 200px; /* Задано ширину для кнопок */
+        }
+
+        .task-button:hover {
+            background-color: #367c39;
+            box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+        }
+
+        .task-button:active {
+            background-color: #2b5e2e;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="task_1.html" class="task-button">Task 1</a>
+        <a href="task_2.html" class="task-button">Task 2</a>
+        <a href="task_3.html" class="task-button">Task 3</a>
+        <a href="task_4.html" class="task-button">Task 4</a>
+    </div>
+</body>
+</html>
