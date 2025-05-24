@@ -1,6 +1,6 @@
 # Documents
-.docx
-.pdf
+*.docx
+*.pdf
 
 # Node modules
 node_modules/
