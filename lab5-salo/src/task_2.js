@@ -35,7 +35,7 @@ function init() {
     scene.add(ambientLight);
     
     // Додаємо GLTF модель на сцену
-    const modelUrl = 'https://salo-lab5-ar-vr.s3.us-east-2.amazonaws.com/scene.gltf';
+    const modelUrl = 'https://salo-lab5-ar-vr.s3.us-east-2.amazonaws.com/task2/scene.gltf';
 
     // Створюємо завантажувач
     loader = new GLTFLoader();

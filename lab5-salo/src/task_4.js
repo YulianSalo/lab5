@@ -69,7 +69,7 @@ function addReticleToScene() {
 
 function onSelect() {
     if (reticle.visible) {
-        const modelUrl = 'https://salo-lab5-ar-vr.s3.us-east-2.amazonaws.com/scene.gltf';
+        const modelUrl = 'https://salo-lab5-ar-vr.s3.us-east-2.amazonaws.com/task4/scene.gltf';
 
         const loader = new GLTFLoader();
 
